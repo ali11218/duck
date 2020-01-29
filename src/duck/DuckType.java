@@ -11,9 +11,9 @@ public enum DuckType {
 
 	public static DuckType getTypeFromUser(String typeOfDuck) {
 		DuckType[] values = DuckType.values();
-		for (DuckType duckEnum : values) {
-			if (duckEnum.getDuckType().equalsIgnoreCase(typeOfDuck)) {
-				return duckEnum;
+		for (DuckType duckType : values) {
+			if (duckType.getDuckType().equalsIgnoreCase(typeOfDuck)) {
+				return duckType;
 			}
 		}
 		return INVALID;
