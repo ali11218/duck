@@ -6,7 +6,7 @@ public enum DuckType {
 	private String duckType;
 
 	private DuckType(String duckType) {
-		// this.duckType = duckType;
+		this.duckType = duckType;
 	}
 
 	public static DuckType getTypeFromUser(String typeOfDuck) {

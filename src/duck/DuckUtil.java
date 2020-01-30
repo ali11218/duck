@@ -38,7 +38,7 @@ public class DuckUtil {
 
 	private static void checkNullOrEmpty(String value) {
 		if (value == null || value.isEmpty()) {
-			throw new IllegalArgumentException("Eror msg: Field cannot be null or empty!");
+			throw new IllegalArgumentException("Error msg: Field cannot be null or empty!");
 
 		}
 	}
